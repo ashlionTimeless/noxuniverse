@@ -1,0 +1,87 @@
+body {
+    background-color:#F0F0F0;
+    font-family: 'Raleway','Source Sans Pro', 'Arial';
+}
+.password_form
+{
+    text-align: center;
+    padding: 2%;
+    height: 240px;
+    visibility: collapse;
+    z-index: 99;
+    position:absolute;
+    top:20%;
+    left:35%;
+    width:300px;
+    background-color:white;
+    border:1px solid black;
+}
+.password_form input
+{
+    width:100%;
+}
+
+.visible
+{
+    visibility: visible !important;
+}
+.response-container
+{
+    padding-top:20px;
+}
+p
+{
+    font-size:20px;
+    height:20px;
+    color:black;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+label {
+    display:block;
+    margin-bottom:10px;
+}
+input {
+    padding:10px;
+    width: 50%;
+    margin-bottom: 1em;
+}
+button {
+    margin: 2em 0;
+    padding: 1em 4em;
+    display:block;
+}
+
+#instructor {
+    padding:1em;
+    background-color:#fff;
+    margin: 1em 0;
+}
+
+#loader
+{
+    width:100px;
+    display:none;
+}
+.action-container
+{
+    height:130px;
+    border-bottom:1px solid black;
+}
+.response-container
+{
+    background: white;
+    height: 100%;
+    border:1px solid gray;
+}
+.float-left
+{
+ float:left;
+}
+
+.float-right
+{
+    float:right;
+}
